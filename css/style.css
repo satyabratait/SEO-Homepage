@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "poppins";
+}
+/* * {
+    font-family: 'Poppins';
+    font-style: normal;
+} */
+
+/* .headerbuttons{
+   border: 2px solid red;
+    gap: 20px;
+}
+
+.headerbuttonpartone{
+    width: 100px;
+}
+
+.headerbuttonparttwo{
+    width: 70px;
+} */
+
+.navbarcontents li:hover{
+      text-decoration: underline solid black;
+}
+
+h1 {
+  font-weight: bold;
+  position: relative;
+}
+
+.expert {
+  position: absolute;
+  right: 0;
+  color: #6f77f1;
+  border: 2px solid #6f77f1;
+  padding: 0.3rem;
+  rotate: -15deg;
+  font-size: 3rem;
+}
+
+@media (min-width: 0px) {
+  .right {
+    height: 70vh;
+    background: url(/SEO_homepage/assets/images/woman.png) no-repeat center center/70%,
+      url(/SEO_homepage/assets/images/abstractdarw.png) no-repeat center center/80%,
+      url(/SEO_homepage/assets/imgs/Rectangle-hero-left.png) no-repeat center center/70%;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+
+@media (min-width: 800px) {
+  .top_section {
+    height: 100vh;
+  }
+
+  .right {
+    height: 100%;
+    background: url(/SEO_homepage/assets/images/woman.png) no-repeat left center/70%,
+      url(/SEO_homepage/assets/images/abstractdarw.png) no-repeat left center/80%;
+      /* url(/SEO_homepage/assets/imgs/Rectangle-hero-bottom.png) no-repeat center top/45%; */
+  }
+  h1 {
+    font-size: 4rem !important;
+  }
+}
+
+.sectionmodelimage{
+   background: url(/SEO_homepage/assets/images/abstractdarw.png),
+                url(/SEO_homepage/assets/images/woman.png);
+
+}
+
+
+.firstsection {
+  /* position: relative; */
+  display: flex;
+  /* justify-content: space-between; */
+  /* gap: 50%; */
+}
+
+.firstsectiontexts {
+  position: relative;
+  /* top: 100%; */
+}
+
+.firstsectionecllipse {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.firstsectionheading p {
+  position: absolute;
+  top: 80%;
+  left: 13%;
+}
+
+.firstsectionheading span {
+  position: absolute;
+  border: 2px solid #6f77f1;
+  color: #6f77f1;
+  top: 110%;
+  left: 42%;
+  rotate: -12deg;
+  text-align: center;
+  width: 10%;
+}
+
+.firstsectioncontents {
+  /* position: absolute; */
+  /* top: 100%; */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* .firstsectionimages {
+    position: relative; 
+} */
+
+.firstsectionimages {
+  position: relative;
+  border: 2px solid red;
+}
+
+/* .firstsectioninstagram {
+  position: absolute;
+  top: 40%;
+  width: 3%;
+  right: 10%; }*/
+
+/* .firstsectionfacebook {
+  position: absolute;
+  top: 10%;
+  width: 2%;
+} */
+
+/* .firstsectiontwitter {
+  position: absolute;
+  top: 118%;
+  width: 2%;
+} */
+
+.firstsectionabstractdraw {
+  /* position: absolute; */
+  /* width: 598.53px;
+  height: 497.85px; */
+  width: 30%;
+  /* aspect-ratio: 2/1;
+  object-fit:cover;
+  object-position: top center; */
+  right: 9%;
+  top: 50%;
+}
+
+.firstsectionwomen {
+  /* position: absolute; */
+  width: 25%;
+  right: 10%;
+  top: 0%;
+}
+
+le {
+  color: #6f77f1;
+}
+
+.optimisationcards div {
+  width: 20rem;
+  border: none;
+}
+
+.optimisationcards div:hover {
+  border-bottom: 4px solid #717ae0;
+  /* border-right: 0px;
+  border-top: 0px; */
+  border-radius: 4px;
+  box-shadow: 0px 10px 14px 2px rgba(14, 17, 60, 0.03);
+}
+
+.needitcards div:hover{
+  box-shadow: 5px 25px 37px rgba(2, 22, 5, 0.06);
+  border-radius: 4px;
+}
+
+.sub-button {
+  background-color: #6f77f1;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.choosecards:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.chooseprice:hover {
+  zoom: 102%;
+  background-color: #6f77f1;
+  color: azure;
+}
+
+.chooseprice button:hover {
+  background-color: #fad725;
+}
+
+.perfect-solution {
+  background-image: url(assets/imgs/Perfect\ Solution.png);
+  background-repeat: no-repeat;
+}
+
+.expert {
+  position: absolute;
+  right: 0;
+  color: #6f77f1;
+  border: 2px solid #6f77f1;
+  padding: 0.3rem;
+  rotate: -15deg;
+  font-size: 3rem;
+}
+
+h1 {
+  font-weight: bold;
+  position: relative;
+}
+
+.highlightpersonname:hover {
+  color: #6f77f1;
+}
+
+.expert-box:hover {
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+}
+
+.carousel-content {
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+}
