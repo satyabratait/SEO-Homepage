@@ -1,3 +1,6 @@
+// import Swiper from "swiper";
+// const Swiper = require('Swiper')
+
 let emailform = document.getElementById("inputemailforms");
 let submit = document.getElementById("submitbutton");
 let input = document.getElementById("inputname");
@@ -31,5 +34,26 @@ submitbutton.addEventListener("click",(e) =>{
         alert(error);
         console.log(4);
         return false
+    }
+});
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    centeredSlides: true,
+    freeMode: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints :{
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        }
     }
 });
