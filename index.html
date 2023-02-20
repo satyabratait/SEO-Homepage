@@ -22,7 +22,7 @@
     <!-- navbar -->
     <nav class="navbar">
       <div class="container-fluid justify-content-lg-around">
-        <a class="navbar-brand fw-bold fs-2" href="#">nuvosa<img src="assets/images/nav_red_dot.png" alt=""/></a>
+        <a class="navbar-brand fw-bold fs-2" href="#">nuvosa<img src="./assets/navbar/nav_red_dot.png" alt=""/></a>
         <ul class="navbarcontents d-flex gap-5 list-unstyled pt-3">
           <li>
             <a class="link-primary text-decoration-none text-black"
@@ -51,9 +51,7 @@
           </li>
         </ul>
         <div class="d-flex gap-2" role="search">
-          <button class="headerbuttonpartone bg-transparent ms-5">
-            Let's Talk
-          </button>
+          <a href="#"><button class="headerbuttonpartone bg-transparent ms-5">Let's Talk</button></a>
           <button class="btn btn-warning" type="submit">
             <i class="fas fal fa-search"></i>
           </button>
@@ -62,29 +60,14 @@
     </nav>
 
     <!-- section 2 -->
-    <!-- <section name="intropage" class="d-flex flex-md-row">
-      <div>
-        <img src="assets/icons/sectiononeecllipseone.png" alt="">
-        <p>Increase your web traffic with our</p>
-        <p>It is a long established fact that a reader will be distracted by the 
-          readable content of a page when It is a long .It is a long established 
-          fact that a reader will be distracted by the readable content of a is simply. 
-          It is a long established fact that a reader will be distracted.</p>
-      </div>
-      <div class="sectionmodelimage">
-
-      </div>
-    </section> -->
-
-    <section class="top_section w-100 d-flex flex-md-row flex-column-reverse justify-content-center align-items-center ">
-      <div class="left w-md-50 w-100 p-md-5 p-2">
+    <section class="top_section w-100 d-flex flex-md-row flex-column justify-content-center align-items-center ">
+      <div class="left w-100 p-md-5 p-2">
         <h1>
-          Increase your web traffic with our
-          <span class="purple_dot"></span>
-          <span class="purple_dot"></span>
-          <span class="purple_dot"></span>
-          <span class="purple_dot"></span>
-          <span class="expert">expert</span>
+          Increase your web traffic with 
+          <span class="position-relative">
+            our
+            <span class="expert">expert</span>
+          </span>
         </h1>
         <p class="my-4 w-100 fs-5 fw-light">
           It is a long established fact that a reader will be distracted by the
@@ -100,40 +83,34 @@
             Get Started
           </button>
           <div class="d-flex justify-content-center align-items-center">
-            <img src="assets/imgs/YouTube - Original.png" class="" alt="" />
+            <img src="./assets/second-section/YouTube - Original.png" class="" alt="" />
           </div>
         </div>
       </div>
       <div
-        class="right w-md-50 w-100 position-relative d-flex align-items-end"
+        class="right w-100 d-flex position-relative align-items-center justify-content-center"
       >
-      <div class="creative hover1-md position-relative end-0 bg-white p-2">
+      <div class="creative hover1-md position-absolute start-0  bottom-0 bg-white p-2">
         <p>Our Creative Team</p>
-            <img src="assets/imgs/team-man-1.png" class="img-fluid" alt="">
-            <img src="assets/imgs/team-man-2.png" alt="">
-            <img src="assets/imgs/team-man-3.png" alt="">
-            <img src="assets/imgs/team-man-4.png" alt="">
-            <img src="assets/imgs/team-plus.png" alt="">
+            <img src="./assets/second-section/team-man-1.png" class="img-fluid position-absolute " alt="" style="left: 5%;">
+            <img src="./assets/second-section/team-man-2.png" class="img-fluid position-absolute" alt="" style="left: 20%;">
+            <img src="./assets/second-section/team-man-3.png" class="img-fluid position-absolute" alt="" style="left: 35%;">
+            <img src="./assets/second-section/team-man-4.png" class="img-fluid position-absolute" alt="" style="left: 50%;">
+            <img src="./assets/second-section/team-plus.png" class="img-fluid position-absolute" alt="" style="left: 65%;">
       </div>
-        <div class="position-absolute" style="top: 10%; left: 10%">
-          <img src="assets/images/facebook.png" class="img-fluid" alt="" />
-        </div>
-        <div class="position-absolute bottom-50" style="left: 0%">
-          <img src="assets/images/twitter.png" class="img-fluid" alt="" />
-        </div>
-        <div class="position-absolute" style="top: 15%; right: 15%">
-          <img src="assets/images/instagram.png" class="img-fluid" alt="" />
+        <div class="img  m-auto w-100">
+          <img src="./assets/second-section/Group 672.png" alt="" class="img-fluid m-auto w-100">
         </div>
       </div>
     </section>
 
     <!-- section-3 -->
-    <section name="marketing-management" class="d-flex flex-wrap justify-content-evenly my-3">
+    <section name="marketing-management" class="d-flex flex-wrap justify-content-center my-3">
       <div class="card m-2 marketingcards">
         <div class="d-flex mt-3 ms-4">
           <img
             class="card-img-left w-25"
-            src="assets/imgs/social-media-management.png"
+            src="./assets/third-section/social-media-management.png"
             alt="Card image cap"/>
           <h5 class="card-title p-2 mt-2"><b>Social Media Marketing</b></h5>
         </div>
@@ -142,14 +119,14 @@
           readable content .It is a long established fact that .
         </p>
         <a class="d-flex justify-content-end mt-2" href=""
-          ><img src="assets/imgs/arrow-right.png"
+          ><img src="./assets/third-section/arrow-right.png"
         /></a>
       </div>
       <div class="card m-2 marketingcards">
         <div class="d-flex mt-3 ms-4">
           <img
             class="card-img-left w-25"
-            src="assets/imgs/email-marketing.png"
+            src="./assets/third-section/email-marketing.png"
             alt=""
           />
           <h5 class="card-title p-2 mt-2"><b>Email Marketing</b></h5>
@@ -159,14 +136,14 @@
           readable content .It is a long established fact that .
         </p>
         <a class="d-flex justify-content-end mt-2" href=""
-          ><img src="assets/imgs/arrow-right.png"
+          ><img src="./assets/third-section/arrow-right.png"
         /></a>
       </div>
       <div class="card m-2 marketingcards">
         <div class="d-flex mt-3 ms-4">
           <img
             class="card-img-left w-25"
-            src="assets/imgs/SEO-marketing.png"
+            src="./assets/third-section/SEO-marketing.png"
             alt=""
           />
           <h5 class="card-title p-2 mt-2"><b>Social Media Marketing</b></h5>
@@ -176,20 +153,20 @@
           readable content .It is a long established fact that .
         </p>
         <a class="d-flex justify-content-end mt-2" href=""
-          ><img src="assets/imgs/arrow-right.png"
+          ><img src="./assets/third-section/arrow-right.png"
         /></a>
       </div>
     </section>
 
     <!-- section 4 -->
-    <section name="website-optimization" class="mt-5 d-flex flex-wrap flex-md-row">
+    <section name="website-optimization" class="my-5 d-flex flex-wrap flex-md-row flex-lg-wrap justify-content-center">
         <div class="mt-3 ms-5">
-      <h1 class="d-flex flex-wrap">
+      <h2 class="fs-1 d-flex flex-wrap">
         <b
           >Optimising your
-          <le>Website</le></b
+          <span class="text-primary">Website</span></b
         >
-      </h1>
+      </h2>
       <p class="mt-4">
         It is a long established fact that a reader will be distracted by the
         readable content of a page when It is a long .
@@ -199,7 +176,7 @@
       <div class="optimisationcards card-group p-3">
 
         <div class="card m-2" style="background: url(assets/imgs/1.png) no-repeat right ;">
-          <img class="card-img-top w-25 mt-5 ms-5" src="assets/imgs/keyword-research.png" style="background-image: url(assets/imgs/keyword-research-bg.png);" alt="">
+          <img class="card-img-top w-25 mt-5 ms-5" src="./assets/fourth-section/keyword-research.png" style="background-image: url(assets/imgs/keyword-research-bg.png);" alt="">
             <span class="card-body mt-5">
             <h3 class="fs-2 card-title"><b>Keyword Research</b></h3>
             <p class="card-text mt-3"> It is a long established fact that a reader will be distracted by the It is a long established .</p>
@@ -207,7 +184,7 @@
         </div>
 
         <div class="card m-2" style="background: url(assets/imgs/2.png) no-repeat right;">
-            <img class="card-img-top w-25 mt-5 ms-5" src="assets/imgs/content-optimisation.png" style="background-image: url(assets/imgs/content-optimisation-bg.png);" alt="">
+            <img class="card-img-top w-25 mt-5 ms-5" src="./assets/fourth-section/content-optimisation.png" style="background-image: url(assets/imgs/content-optimisation-bg.png);" alt="">
               <span class="card-body mt-5">
               <h3 class="fs-3 card-title"><b>Content Optimisation</b></h3>
               <p class="card-text mt-3"> It is a long established fact that a reader will be distracted by the It is a long established .</p>
@@ -215,7 +192,7 @@
         </div>
 
         <div class="card m-2" style="background: url(assets/imgs/3.png) no-repeat right;">
-            <img class="card-img-top w-25 mt-5 ms-5" src="assets/imgs/target-analysis.png" style="background-image: url(assets/imgs/target-analysis-bg.png);" alt="">
+            <img class="card-img-top w-25 mt-5 ms-5" src="./assets/fourth-section/target-analysis.png" style="background-image: url(assets/imgs/target-analysis-bg.png);" alt="">
               <span class="card-body mt-5">
               <h3 class="fs-2 card-title"><b>Target Analysis</b></h3>
               <p class="card-text mt-3"> It is a long established fact that a reader will be distracted by the It is a long established .</p>
@@ -223,7 +200,7 @@
         </div>
 
         <div class="card m-2" style="background: url(assets/imgs/4.png) no-repeat right;">
-            <img class="card-img-top w-25 mt-5 ms-5" src="assets/imgs/continuous-testing.png" style="background-image: url(assets/imgs/continuous-testing-bg.png);" alt="">
+            <img class="card-img-top w-25 mt-5 ms-5" src="./assets/fourth-section/continuous-testing.png" style="background-image: url(assets/imgs/continuous-testing-bg.png);" alt="">
               <span class="card-body mt-5">
               <h3 class="fs-2 card-title"><b>Continuous Testing</b></h3>
               <p class="card-text mt-3"> It is a long established fact that a reader will be distracted by the It is a long established .</p>
@@ -238,7 +215,7 @@
     class="my-5 py-5 px-5 perfect-solution d-flex flex-column flex-md-row justify-content-center" style="background-color:  #FAFAFA;">
     <div class="">
       <p>
-      <h1><b>Perfect Solution For Your <le>Business</le></b></h1>
+      <h2 class="fs-1"><b>Perfect Solution For Your <span class="text-primary">Business</span></b></h2>
       <p>
         It is a long established fact that a reader will be distracted by
         the It is a long established .t is a long established fact that a
@@ -248,7 +225,7 @@
       </p>
     </div>
     <div class="w-md-25">
-      <img src="assets/imgs/laptop.png" class="img-fluid"></img>
+      <img src="./assets/fifth-section/laptop.png" class="img-fluid"></img>
     </div>
     </section>
 
@@ -257,7 +234,7 @@
         <div class="card m-2 border-0 choosecards">
             <img
               class="card-img-left w-25 mt-3 ms-4"
-              src="assets/imgs/grow-your-business.png"
+              src="./assets/sixth-section/grow-your-business.png"
               alt=""/>
               <div class="card-body">
                 <h4 class="card-title">Grow Your Business</h4>
@@ -270,7 +247,7 @@
         <div class="card m-2 border-0 choosecards">
             <img
               class="card-img-left w-25 mt-3 ms-4"
-              src="assets/imgs/get-quality-leads.png"
+              src="./assets/sixth-section/get-quality-leads.png"
               alt=""/>
               <div class="card-body">
                 <h4 class="card-title">Grow Your Business</h4>
@@ -283,7 +260,7 @@
         <div class="card m-2 border-0 choosecards">
             <img
               class="card-img-left w-25 mt-3 ms-4"
-              src="assets/imgs/drive-more-sales.png"
+              src="./assets/sixth-section/drive-more-sales.png"
               alt=""/>
               <div class="card-body">
                 <h4 class="card-title">Drive more sales</h4>
@@ -298,7 +275,7 @@
     <section name="why choose us"
     class="my-3 py-3 bg-body-tertiary w-100">
     <div class="p-3 pb-md-4 text-center">
-      <h1 class="display-4 fw-normal"><b>Why You Should <le>Choose Us.</le></b></h1>
+      <h2 class="fs-1 fw-normal"><b>Why You Should <span class="text-primary">Choose Us.</span></b></h2>
       <p class="fs-5 text-center text-body-tertiary">It is a long established fact that a reader will be distracted by
         the readable content.It is a long established fact that a reader .It is a long established fact that a reader
         will be .</p>
@@ -307,7 +284,7 @@
         <div class="card m-2 border-0 choosecards" style="width: 20rem;">
             <img
               class="card-img-left w-100 my-5"
-              src="assets/imgs/see-optimazadion.png"
+              src="./assets/seventh-section/see-optimazadion.png"
               alt=""/>
               <div class="card-body ms-4">
                 <h4 class="card-title">See optimization</h4>
@@ -320,7 +297,7 @@
         <div class="card m-2 border-0 choosecards" style="width: 20rem;">
             <img
               class="card-img-left w-100 my-5"
-              src="assets/imgs/keyword-research-chooseus.png"
+              src="./assets/seventh-section/keyword-research-chooseus.png"
               alt=""/>
               <div class="card-body ms-4">
                 <h4 class="card-title">Keyword research</h4>
@@ -333,7 +310,7 @@
         <div class="card m-2 border-0 choosecards" style="width: 20rem;">
             <img
               class="card-img-left w-100 my-3"
-              src="assets/imgs/social-marketing.png"
+              src="./assets/seventh-section/social-marketing.png"
               alt=""/>
               <div class="card-body ms-4">
                 <h4 class="card-title">Social marketing</h4>
@@ -346,30 +323,30 @@
     </section>
 
     <!-- <section 8 -->
-    <section name="need it" class="d-flex flex-column flex-md-row justify-content-evenly my-5">
-        <div class="my-5 h-50 w-75">
-        <img class="img-fluid" src="assets/imgs/SEO_need-it.png" alt="">
-        </div>
+    <section name="need it" class="d-flex flex-column flex-md-row justify-content-center my-5">
+        <span class="my-5">
+        <img class="img-fluid my-5" src="./assets/eight-section/SEO_need-it.png" alt="">
+        </span>
         <div class="px-1 needitcards">
-          <h2 class="fs-1 mb-4"><b>You Make Ask What SEO & Why Do You <le>Need It ?</le></b></h2>
+          <h2 class="fs-1 mb-4"><b>You Make Ask What SEO & Why Do You <span class="text-primary">Need It ?</span></b></h2>
           <p>It is a long established fact that a reader will be distracted by the readable content .It is a long
             established fact that a reader .It is a long.</p>
           <div class="d-flex gap-3 align-items-center py-2 flex-column flex-md-row mt-5">
-            <img src="assets/imgs/social_media_globe.png" alt="">
+            <img src="./assets/eight-section/social_media_globe.png" alt="">
             <span>
               <h3><b>Social Media Marketing</b></h3>
               <p>It is a long established fact that a reader will be distracted by the.</p>
             </span>
           </div>
           <div class="d-flex gap-3 align-items-center py-2 flex-column flex-md-row mt-5">
-            <img src="assets/imgs/email_marketing_icon.png" alt="">
+            <img src="./assets/eight-section/email_marketing_icon.png" alt="">
             <span>
               <h3><b>Email Marketing</b></h3>
               <p>It is a long established fact that a reader will be distracted by the.</p>
             </span>
           </div>
           <div class="d-flex gap-3 align-items-center py-2 flex-column flex-md-row mt-5">
-            <img src="assets/imgs/SEO_optimization_icon.png" alt="">
+            <img src="./assets/eight-section/SEO_optimization_icon.png" alt="">
             <span>
               <h3><b>SEO Optimization</b></h3>
               <p>It is a long established fact that a reader will be distracted by the.</p>
@@ -382,30 +359,30 @@
     <section name="stats"
     class="container my-3 d-flex flex-column flex-md-row flex-wrap justify-content-around align-items-center border border-secondary-subtle w-75 text-center">
     <div>
-      <h1><b>86</b></h1>
+      <h2><b>86</b></h2>
       <p><b>Happy Clients</b></p>
     </div>
-    <img class="py-5" src="assets/imgs/stat-red.png" alt="">
+    <img class="py-5" src="./assets/ninth-section/stat-red.png" alt="">
     <div>
-      <h1><b>118</b></h1>
+      <h2><b>118</b></h2>
       <p><b>Project Done</b></p>
     </div>
-    <img class="py-5" src="assets/imgs/stat-green.png" alt="">
+    <img class="py-5" src="./assets/ninth-section/stat-green.png" alt="">
     <div>
-      <h1><b>6+</b></h1>
+      <h2><b>6+</b></h2>
       <p><b>Years Of Experience</b></p>
     </div>
-    <img class="py-5" src="assets/imgs/stat-yellow.png" alt="">
+    <img class="py-5" src="./assets/ninth-section/stat-yellow.png" alt="">
     <div>
-      <h1><b>14</b></h1>
+      <h2><b>14</b></h2>
       <p><b>National Awards</b></p>
     </div>
     </section>
 
     <!-- section 10 -->
-    <section name="Website-Speed" class="my-3 d-flex flex-column flex-md-row p-3 justify-content-center laptop">
+    <section name="Website-Speed" class="my-3 d-flex flex-column flex-md-row p-3 justify-content-center">
         <div class="d-flex flex-column justify-content-center ms-3">
-          <h1>Check Your Website <b class="text-primary">Speed</b></h1>
+          <h2 class="fs-1">Check Your Website <b class="text-primary">Speed</b></h2>
           <p>
             It is a long established fact that a reader will be distracted by the readable content .It is a long established
             fact that a reader. It is a long.
@@ -416,8 +393,8 @@
             <button class="btn bg-warning w-75 w-sm-50" id="submitbuttons">Submit</button>
           </div>
         </div>
-        <div class="w-md-75">
-          <img src="assets/imgs/website-speed.png" class="img-fluid my-5"></img>
+        <div class="w-md-50">
+          <img src="./assets/tenth-section/website-speed.png" class="img-fluid my-5"></img>
         </div>
     </section>
 
@@ -426,7 +403,7 @@
     class="my-3 py-3 bg-body-tertiary w-100">
 
     <div class="p-3 pb-md-4 text-center">
-        <h2><b>Our Plans</b></h2>
+        <h2 class="fs-1"><b>Our Plans</b></h2>
         <p>Choose the right SEO for you</p>
     </div>
     <div class="d-flex flex-wrap justify-content-center text-center my-3">
@@ -440,35 +417,35 @@
                     <li>24 Hour Support</li>
                     <li>Customer Management</li>
                   </ul>
-                <button class="w-75 my-4 btn btn-lg btn-outline-dark text-dark">Get started</button>
+                <button class="w-75 my-4 btn btn-outline-dark  text-dark">Get started</button>
             </div>
         </div>
         
         <div class="card m-2 border-0 chooseprice">
             <h4 class=" mt-5 fw-normal">Beginner</h4>
               <div class="card-body ms-4">
-                <h2 class="card-title">$46<span class=" mont fw-light">/month</span></h2>
+                <h2 class="card-title">$66<span class=" mont fw-light">/month</span></h2>
                 <ul class="list-unstyled mt-3 mb-4">
                     <li>408GB Bandwidth</li>
                     <li>Business & Finance Analysing</li>
                     <li>24 Hour Support</li>
                     <li>Customer Management</li>
                   </ul>
-                <button class="w-75 my-4 btn btn-lg btn-outline-dark text-dark">Get started</button>
+                <button class="w-75 my-4 btn btn-outline-dark text-dark">Get started</button>
             </div>
         </div>
 
         <div class="card m-2 border-0 chooseprice" style="width: 20rem;">
             <h4 class=" mt-5 fw-normal">Advanced</h4>
-              <div class="card-body ms-4">
-                <h2 class="card-title">$46<span class=" mont fw-light">/month</span></h2>
+              <div class="ms-4">
+                <h2 class="card-title">$86<span class=" mont fw-light">/month</span></h2>
                 <ul class="list-unstyled mt-3 mb-4">
                     <li>408GB Bandwidth</li>
                     <li>Business & Finance Analysing</li>
                     <li>24 Hour Support</li>
                     <li>Customer Management</li>
                   </ul>
-                <button class="w-75 my-4 btn btn-lg btn-outline-dark text-dark">Get started</button>
+                <button class="w-75 my-4 btn btn-outline-dark text-dark">Get started</button>
             </div>
         </div>
 
@@ -478,101 +455,106 @@
     <!-- section 12 -->
     <section name="Expert-Member" class="my-3">
         <div class="text-center mt-5">
-        <h2><b>Our Expert Team <le>Members</le></b></h2>
+        <h2 class="fs-1"><b>Our Expert Team <span class="text-primary">Members</span></b></h2>
         <p>It is a long established fact that a reader will be distracted by the readable content .It is
           a long
           established fact that a reader </p></div>
           <div class="p-3 d-flex flex-wrap justify-content-center">
 
             <div class="expert-box border border-secondary-subtle text-center py-2 px-3 m-3">
-                <img src="assets/imgs/member-1.png" alt="">
+                <img src="./assets/twelveth-section/member-1.png" alt="">
                 <p class="highlightpersonname"><b>Muriel Whee</b></p>
                 <p class="text-body-tertiary">Marketing Manager</p>
                     <ul class="list-unstyled d-flex justify-content-evenly">
-                        <li><a href=""><img src="assets/imgs/G-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/Instagram-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/twit-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/fb-icon.png" alt=""></a></li>
+                        <li><a class="text-dark active-ms" href=""><i class="fab fa-google"></i></a></li>
+                        <li><a class="text-dark" href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="text-dark" href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="text-dark" href=""><i class="fab fa-facebook"></i></a></li>
                       </ul>
               </div>
     
               <div class="expert-box border border-secondary-subtle text-center py-2 px-3 m-3">
-                <img src="assets/imgs/member-2.png" alt="">
+                <img src="./assets/twelveth-section/member-2.png" alt="">
                 <p class="highlightpersonname"><b>John Doe</b></p>
                 <p class="text-body-tertiary">Marketing Manager</p>
-                    <ul class="list-unstyled d-flex justify-content-evenly">
-                        <li><a href=""><img src="assets/imgs/G-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/Instagram-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/twit-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/fb-icon.png" alt=""></a></li>
-                      </ul>
+                <ul class="list-unstyled d-flex justify-content-evenly">
+                  <li><a class="text-dark active-ms" href=""><i class="fab fa-google"></i></a></li>
+                  <li><a class="text-dark" href=""><i class="fab fa-instagram"></i></a></li>
+                  <li><a class="text-dark" href=""><i class="fab fa-twitter"></i></a></li>
+                  <li><a class="text-dark" href=""><i class="fab fa-facebook"></i></a></li>
+                </ul>
               </div>
 
               <div class="expert-box border border-secondary-subtle text-center py-2 px-3 m-3">
-                <img src="assets/imgs/member-3.png" alt="">
+                <img src="./assets/twelveth-section/member-3.png" alt="">
                 <p class="highlightpersonname"><b>Clay Porter</b></p>
                 <p class="text-body-tertiary">Marketing Manager</p>
-                    <ul class="list-unstyled d-flex justify-content-evenly">
-                        <li><a href=""><img src="assets/imgs/G-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/Instagram-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/twit-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/fb-icon.png" alt=""></a></li>
-                      </ul>
+                <ul class="list-unstyled d-flex justify-content-evenly">
+                  <li><a class="text-dark active-ms" href=""><i class="fab fa-google"></i></a></li>
+                  <li><a class="text-dark" href=""><i class="fab fa-instagram"></i></a></li>
+                  <li><a class="text-dark" href=""><i class="fab fa-twitter"></i></a></li>
+                  <li><a class="text-dark" href=""><i class="fab fa-facebook"></i></a></li>
+                </ul>
               </div>
 
               <div class="expert-box border border-secondary-subtle text-center py-2 px-3 m-3">
-                <img src="assets/imgs/member-4.png" alt="">
+                <img src="./assets/twelveth-section/member-4.png" alt="">
                 <p class="highlightpersonname"><b>Doug Norm</b></p>
                 <p class="text-body-tertiary">Marketing Manager</p>
-                    <ul class="list-unstyled d-flex justify-content-evenly">
-                        <li><a href=""><img src="assets/imgs/G-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/Instagram-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/twit-icon.png" alt=""></a></li>
-                        <li><a href=""><img src="assets/imgs/fb-icon.png" alt=""></a></li>
-                      </ul>
+                <ul class="list-unstyled d-flex justify-content-evenly">
+                  <li><a class="text-dark active-ms" href=""><i class="fab fa-google"></i></a></li>
+                  <li><a class="text-dark" href=""><i class="fab fa-instagram"></i></a></li>
+                  <li><a class="text-dark" href=""><i class="fab fa-twitter"></i></a></li>
+                  <li><a class="text-dark" href=""><i class="fab fa-facebook"></i></a></li>
+                </ul>
               </div>
     
           </div>
     </section>
 
     <!-- section 13 -->
-    <section name="Clients" class="my-3">
+    <section name="Clients" class="my-3 p-3">
         <div class="text-center">
-        <h2><b>Our Clients Say</b></h2>
+        <h2 class="fs-1"><b>Our Clients Say</b></h2>
         <p>It is a long established fact that a reader will be distracted by the readable content
           .It is a </p>
         </div>
 
-        <div class="swiper mySwiper d-flex flex-column flex-md-row  text-center">
+        <div class="swiper mySwiper d-flex text-center">
           <div class="swiper-wrapper">
-          <div class="swiper-slide border border-secondary-subtle m-3 p-3">
+            
+          <div class="swiper-slide border border-secondary-subtle  p-3 clientscard">
             <p>It is a long established fact that a reader will be distracted by the readable content .It is a long
               established fact that a reader </p>
-            <img src="assets/imgs/client-1.png" alt="">
+            <img src="./assets/thirteenth-section/client-1.png" alt="">
             <p class="highlightpersonname"><b>CLay Porter</b></p>
             <p class="text-body-tertiary">Ship builder</p>
           </div>
-          <div class="swiper-slide border border-secondary-subtle m-3 p-3">
+
+          <div class="swiper-slide border border-secondary-subtle  p-3 clientscard">
             <p>It is a long established fact that a reader will be distracted by the readable content .It is a long
               established fact that a reader </p>
-            <img src="assets/imgs/client-2.png" alt="">
+            <img src="./assets/thirteenth-section/client-2.png" alt="">
             <p class="highlightpersonname"><b>CLay Porter</b></p>
             <p class="text-body-tertiary">Ship builder</p>
           </div>
-          <div class="swiper-slide border border-secondary-subtle m-3 p-3">
+
+          <div class="swiper-slide border border-secondary-subtle  p-3 clientscard">
             <p>It is a long established fact that a reader will be distracted by the readable content .It is a long
               established fact that a reader </p>
-            <img src="assets/imgs/client-3.png" alt="">
+            <img src="./assets/thirteenth-section/client-3.png" alt="">
             <p class="highlightpersonname"><b>CLay Porter</b></p>
             <p class="text-body-tertiary">Ship builder</p>
           </div>
-          <div class="swiper-slide border border-secondary-subtle m-3 p-3">
+
+          <div class="swiper-slide border border-secondary-subtle p-3 clientscard">
             <p>It is a long established fact that a reader will be distracted by the readable content .It is a long
               established fact that a reader </p>
-            <img src="assets/imgs/client-4.png" alt="">
+            <img src="./assets/thirteenth-section/client-4.png" alt="">
             <p class="highlightpersonname"><b>CLay Porter</b></p>
             <p class="text-body-tertiary">Ship builder</p>
           </div>
+
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -580,13 +562,13 @@
     </section>
 
     <!-- section 14 -->
-    <section name="Subscribe" class=" d-flex w-100 justify-content-center">
-      <div class="subscribe bg-secondary-subtle my-3 w-75 py-3 mx-3">
-        <div class=" text-center">
-          <h3><b>Subscribe & Find The Perfect Cosmetic</b></h3>
+    <section name="Subscribe" class=" d-flex w-100 h-100 justify-content-center">
+      <div class="subscribe bg-secondary-subtle my-3 w-75 h-75 py-3 mx-3">
+        <div class=" text-center mt-4">
+          <h2 class="fs-3"><b>Subscribe & Find The Perfect Cosmetic</b></h2>
           <p class="text-body-tertiary">Enter Your Email And Get Updated New Products & News</p>
         </div>
-        <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+        <div class="d-flex flex-column flex-md-row gap-3 justify-content-center mb-4">
           <input class="form-control w-25 border border-light-subtle" type="text" id="inputname" placeholder="Name">
           <input class="form-control w-25 w-md-70 border border-light-subtle" type="email" id="inputemailforms" placeholder="Email Address">
           <button class="sub-button w-25" id="submitbutton">Subscribe</button>

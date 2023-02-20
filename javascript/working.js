@@ -7,6 +7,7 @@ let input = document.getElementById("inputname");
 let weburl = document.getElementById("validateweburl");
 let submitbutton = document.getElementById("submitbuttons");
 let emailcontrol = document.getElementById("emailcontrol");
+let price = document.querySelectorAll(".chooseprice");
 
 let reges = /^[a-zA-Z0-9]+([\.-]?[a-zA-Z0-9]+)*@[a-zA-Z]+([\.-]?[a-zA-Z0-9]+)*(\.[a-zA-Z0-9]{2,3})+$/g;
 let namereges = /^[a-zA-Z]$/;
@@ -57,3 +58,29 @@ var swiper = new Swiper(".mySwiper", {
         }
     }
 });
+
+
+price.forEach((card) => {
+    card.addEventListener("mouseover", () => {
+        card.firstElementChild.style.color = "white";
+    });
+});
+
+price.forEach((card) => {
+    card.addEventListener("mouseout", () => {
+      card.firstElementChild.style.color = "#6f77f1"
+    })
+});
+
+price.forEach((button) => {
+    button.addEventListener("mouseover", () => {
+        console.log(button.lastElementChild);
+      button.lastElementChild.lastElementChild.style.backgroundColor = "#FAD725"
+    })
+  })
+  
+price.forEach((button) => {
+    button.addEventListener("mouseout", () => {
+      button.lastElementChild.lastElementChild.style.backgroundColor = "white"
+    })
+})

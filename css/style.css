@@ -1,13 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&family=Work+Sans:ital,wght@0,100;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "poppins","sans-serif";
+ 
+  font-family: "Poppins","sans-serif";
 }
 
 .navbarcontents li:hover{
       text-decoration: underline solid black;
+}
+
+.creative {
+  margin-right: auto;
+  z-index: 2;
+  width: 240px;
+  height: 120px;
+  opacity: 0.95;
 }
 
 h1 {
@@ -15,23 +24,9 @@ h1 {
   position: relative;
 }
 
-.expert {
-  position: absolute;
-  right: 0;
-  color: #6f77f1;
-  border: 2px solid #6f77f1;
-  padding: 0.3rem;
-  rotate: -15deg;
-  font-size: 3rem;
-}
 
 @media (min-width: 0px) {
-  .right {
-    height: 70vh;
-    background: url(/assets/images/woman.png) no-repeat center center/70%,
-      url(/assets/images/abstractdarw.png) no-repeat center center/80%,
-      url(/assets/imgs/Rectangle-hero-left.png) no-repeat center center/70%;
-  }
+ 
 
   h1 {
     font-size: 3rem !important;
@@ -39,28 +34,18 @@ h1 {
 }
 
 @media (min-width: 800px) {
-  .top_section {
-    height: 100vh;
-  }
-
-  .right {
-    height: 100%;
-    background: url(/assets/images/woman.png) no-repeat left center/70%,
-      url(/assets/images/abstractdarw.png) no-repeat left center/80%;
+  .expert {
+    position: absolute;
+    left: 120%;
+    color: #6f77f1;
+    border: 2px solid #6f77f1;
+    padding: 0.3rem;
+    rotate: -8.23deg;
+    font-size: 3rem;
   }
   h1 {
     font-size: 4rem !important;
   }
-}
-
-.sectionmodelimage{
-   background: url(/assets/images/abstractdarw.png),
-                url(/assets/images/woman.png);
-
-}
-
-le {
-  color: #6f77f1;
 }
 
 .optimisationcards div {
@@ -104,29 +89,17 @@ le {
 }
 
 .chooseprice:hover {
-  zoom: 102%;
-  background-color: #6f77f1;
+  scale: 1.1;
+  background: url(../assets/eleventh-section/price-bg.png) no-repeat center;
+  background-size: stretch;
   color: azure;
 }
 
-.chooseprice button:hover {
-  background-color: #fad725;
-}
-
 .perfect-solution {
-  background-image: url(/assets/imgs/Perfect\ Solution.png);
+  background-image: url(../assets/fifth-section/perfect-solution.png);
   background-repeat: no-repeat;
 }
 
-.expert {
-  position: absolute;
-  right: 0;
-  color: #6f77f1;
-  border: 2px solid #6f77f1;
-  padding: 0.3rem;
-  rotate: -15deg;
-  font-size: 3rem;
-}
 
 h1 {
   font-weight: bold;
@@ -141,25 +114,24 @@ h1 {
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 
-.swiper-slide-active{
-  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
-}
-
 .swiper-slide {
   text-align: center;
   background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
-@media (min-width: 0px) {
-
-  .subscribe{
-    max-width: 100% !important;
-  }
+.swiper-slide-active{
+  /* scale: 1.1; */
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 
+.clientscard{
+  background: url(../assets/thirteenth-section/doublequote.png) no-repeat; 
+}
 
 @media (min-width: 950px) {
   .subscribe{
